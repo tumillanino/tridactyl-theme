@@ -35,9 +35,9 @@
     --tridactyl-hint-outline: none;
 }
 #command-line-holder {
-    border: none;
+    border: 1px solid var(--base01); /* less vibrant */
     background: var(--base00);
-    padding: 0.2rem 1rem;
+    color: var(--base05);
 }
 
 

@@ -34,20 +34,16 @@
     --tridactyl-hint-bg: none;
     --tridactyl-hint-outline: none;
 }
-
-#command-line-holder {    order: 1;
-    border: 2px solid var(--base0B);
-    color: var(--tridactyl-bg);
+#command-line-holder {
+    border: 1px solid var(--base01); /* less vibrant */
+    background: var(--base00);
+    color: var(--base05);
 }
 
-#tridactyl-input {    padding: 1rem;
-    color: var(--tridactyl-fg);
-    width: 90%;
-    font-size: 1.0rem;
-    line-height: 1.5;
-    background: var(--tridactyl-bg);
-    padding-left: unset;
-    padding: 1rem;
+#tridactyl-input::before {
+    content: ": ";
+    color: var(--base0B);
+    margin-right: 0.5rem;
 }
 
 #completions table {    font-size: 0.2rem;
@@ -133,16 +129,15 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px !important;
 }
 
-.TridactylStatusIndicator {    position: fixed !important;
-    bottom: 0 !important;
-    background: var(--tridactyl-bg) !important;
-    border: unset !important;
-    border: 1px var(--base0B) solid !important;
-    font-size: 12pt !important;
-    /*font-weight: 200 !important;*/
-    padding: 0.8ex !important;
-}
 
+.TridactylStatusIndicator {
+    border: none !important;
+    border-top: 1px solid var(--base01) !important;
+    background: var(--base00) !important;
+    color: var(--base05) !important;
+    box-shadow: none !important;
+}
+-
 #completions .focused {    background: var(--base0B);
     color: var(--base00);
 }

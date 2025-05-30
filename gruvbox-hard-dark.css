@@ -17,7 +17,7 @@
     --base0F: #d65d0e;
 
     --tridactyl-fg: var(--base05);
-    --tridactyl-bg: var(--base00);
+    --tridactyl-bg: var(--base00);-
     --tridactyl-url-fg: var(--base08);
     --tridactyl-url-bg: var(--base00);
     --tridactyl-highlight-box-bg: var(--base0B);
@@ -43,14 +43,14 @@
 #tridactyl-input {    padding: 1rem;
     color: var(--tridactyl-fg);
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     line-height: 1.5;
     background: var(--tridactyl-bg);
     padding-left: unset;
     padding: 1rem;
 }
 
-#completions table {    font-size: 0.8rem;
+#completions table {    font-size: 0.2rem;
     font-weight: 200;
     border-spacing: 0;
     table-layout: fixed;
@@ -69,7 +69,7 @@
     color: var(--tridactyl-fg);
     background: var(--tridactyl-bg);
     display: inline-block;
-    font-size: unset;
+    font-size: 9pt;
     font-weight: 200;
     overflow: hidden;
     width: 100%;
@@ -103,7 +103,7 @@
     .BufferCompletionSource
     table {
     width: unset;
-    font-size: unset;
+    font-size: 9pt;
     border-spacing: unset;
     table-layout: unset;
 }

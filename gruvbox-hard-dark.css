@@ -137,6 +137,7 @@
     flex-direction: column;
 }
 
+#completions .url { color: var(--base0B); }
 
 
 .TridactylStatusIndicator {

@@ -66,7 +66,7 @@
     color: var(--tridactyl-fg);
     background: var(--tridactyl-bg);
     display: inline-block;
-    font-size: 9pt;
+    font-size: 14pt;
     font-weight: 200;
     overflow: hidden;
     width: 100%;
@@ -83,7 +83,7 @@
     .HistoryCompletionSource
     table {
     width: 100%;
-    font-size: 9pt;
+    font-size: 14pt;
     border-spacing: 0;
     table-layout: fixed;
 }
@@ -100,7 +100,7 @@
     .BufferCompletionSource
     table {
     width: unset;
-    font-size: 9pt;
+    font-size: 14pt;
     border-spacing: unset;
     table-layout: unset;
 }
